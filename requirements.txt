@@ -6,3 +6,4 @@ pyngrok==7.1.5
 torch==2.2.1
 uvicorn==0.28.1
 transformers==4.38.2
+accelerate==0.28.0
