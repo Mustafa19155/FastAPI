@@ -95,7 +95,7 @@ app.add_middleware(
 )
 
 
-device = "cuda"
+device = "cpu"
 model_id = "dreamlike-art/dreamlike-photoreal-2.0"
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16,use_auth_token="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")
 pipe.to(device)
