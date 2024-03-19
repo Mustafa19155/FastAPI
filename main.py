@@ -30,14 +30,14 @@ app.add_middleware(
 
 device = "cuda"
 model_id = "dreamlike-art/dreamlike-photoreal-2.0"
-pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, use_auth_token="hf_FIoLXhGCaejfrtW")
+pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16,use_auth_token="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")
 pipe.to(device)
 
 # Initialize Cloudinary (Replace 'your_cloud_name', 'your_api_key', and 'your_api_secret' with your Cloudinary credentials)
 cloudinary.config(
-    cloud_name="dgu",
-    api_key="569428144",
-    api_secret="N-t0PNEwA"
+    cloud_name="dgusq1sv0",
+    api_key="569428144272248",
+    api_secret="N-t0PNEw-adXc4uNH3O2oiuJEoA"
 )
 
 @app.get("/")
