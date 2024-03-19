@@ -109,7 +109,7 @@ cloudinary.config(
 
 @app.get("/")
 async def root(prompt: str, height: int, width: int):
-        with autocast(device):
+    with autocast(device):
         image = pipe(prompt, guidance_scale=8.5, height= height, width= width).images[0]
         # print(prompt)
         # print(height)
@@ -127,5 +127,3 @@ async def root(prompt: str, height: int, width: int):
 
 
     return {"image_url": image_url}
-
-    
