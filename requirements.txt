@@ -1,2 +1,7 @@
-fastapi==0.100.0
-hypercorn==0.14.4
+cloudinary==1.39.1
+diffusers==0.27.1
+fastapi==0.110.0
+nest_asyncio==1.5.8
+pyngrok==7.1.5
+torch==2.2.1
+uvicorn==0.28.1
