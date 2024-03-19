@@ -5,4 +5,4 @@ nest_asyncio==1.5.8
 pyngrok==7.1.5
 torch==2.2.1
 uvicorn==0.28.1
-transformers==4.32.2
+transformers==4.38.2
